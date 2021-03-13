@@ -24,7 +24,18 @@
         {
             "id": "neighborhoods-fill",
             "type": "fill",
-            "source": "neighborhoods"
+            "source": "neighborhoods",
+            "paint": {
+                "fill-opacity": 0.2
+            }
+        },
+        {
+            "id": "neighborhoods-outlines",
+            "type": "line",
+            "source": "neighborhoods",
+            "paint": {
+
+            }
         }
     ]
 }
