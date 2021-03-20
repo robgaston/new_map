@@ -23,10 +23,48 @@
         },
         {
             "id": "neighborhoods-fill",
-            "type": "fill",
+            "type": "fill-extrusion",
             "source": "neighborhoods",
             "paint": {
-                "fill-opacity": 0.2
+                "fill-extrusion-opacity": 0.5,
+                "fill-extrusion-height": [
+                    "+",
+                    [
+                        "*",
+                        ["get", "count"],
+                        5
+                    ],
+                    [
+                        "case",
+                        [
+                            "boolean",
+                            ["feature-state", "hover"],
+                            false
+                        ],
+                        1000,
+                        0
+                    ]
+                ],
+                "fill-extrusion-base": [
+                    "case",
+                    [
+                        "boolean",
+                        ["feature-state", "hover"],
+                        false
+                    ],
+                    1000,
+                    0
+                ],
+                "fill-extrusion-color": [
+                    "step",
+                    ["get", "count"],
+                    "#eff3ff", 30,
+                    "#c6dbef", 100,
+                    "#9ecae1", 300,
+                    "#6baed6", 800,
+                    "#3182bd", 1200,
+                    "#08519c"
+                ]
             }
         },
         {
@@ -34,7 +72,16 @@
             "type": "line",
             "source": "neighborhoods",
             "paint": {
-
+                "line-width": [
+                    "case",
+                    [
+                        "boolean",
+                        ["feature-state", "hover"],
+                        false
+                    ],
+                    3,
+                    1
+                ]
             }
         }
     ]
