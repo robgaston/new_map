@@ -23,10 +23,10 @@ yarn install
 ## Development
 To run the app locally, run the following from the root directory of your cloned repository:
 ```
-yarn serve
+yarn start
 ```
 
-The application should now be running at http://localhost:8080/
+The application should now be running at http://localhost:1234/
 
 Changes that you make to javascript and CSS files will be automatically refreshed!
 
