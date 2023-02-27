@@ -36,4 +36,4 @@ npm run build
 ```
 
 ## Deployment
-To deploy your latest code to the web, simply build (as per above) then commit and push your local changes to the `master` branch in Github.
+To deploy your latest code to the web, simply build (as per above) then commit and push your local changes to the `main` branch in Github.
