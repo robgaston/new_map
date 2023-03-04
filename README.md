@@ -19,7 +19,7 @@ If you haven't already, you'll also need to create accounts for these services:
 - [GitHub](https://github.com)
 
 Now you can use this template repository to start building your own web map:
-- Use this template to create a new repository
+- [Use this template to create a new repository](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)
 - Install the [GitHub Pull Requests and Issues VSCode Extension](https://marketplace.visualstudio.com/items?itemName=GitHub.vscode-pull-request-github)
 - [Sign into GitHub with VSCode](https://code.visualstudio.com/docs/sourcecontrol/github#_getting-started-with-github-pull-requests-and-issues)
 - [Clone the repository](https://code.visualstudio.com/docs/sourcecontrol/github#_cloning-a-repository) you've created from this template using VSCode
