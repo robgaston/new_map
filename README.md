@@ -8,7 +8,9 @@ You'll also need a Git client & text editor; if you don't have those, then you s
 - [Git](https://git-scm.com/downloads)
 - [VS Code](https://code.visualstudio.com/)
 
-You'll also want to [sign-up for Mapbox services here](https://www.mapbox.com/signup/) and, if you haven't already, [create a GitHub account](https://github.com).
+You'll also need to create accounts for these services:
+- [Mapbox](https://www.mapbox.com/signup/)
+- [GitHub](https://github.com)
 
 After installing git, configure it by running:
 ```sh
