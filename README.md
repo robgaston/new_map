@@ -1,10 +1,8 @@
 # New Map Template
 
 ## Getting Started
-Install the following dependencies:
+If you don't have them already, install the following dependencies:
 - [Node.js](https://nodejs.org/)
-
-You'll also need a Git client & text editor; if you don't have those, then you should also install the following:
 - [Git](https://git-scm.com/downloads)
 - [VS Code](https://code.visualstudio.com/)
 
