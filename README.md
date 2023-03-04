@@ -1,4 +1,4 @@
-# New Map
+# New Map Template
 
 ## Getting Started
 Install the following dependencies:
