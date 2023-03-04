@@ -8,7 +8,7 @@ You'll also need a Git client & text editor; if you don't have those, then you s
 - [Git](https://git-scm.com/downloads)
 - [VS Code](https://code.visualstudio.com/)
 
-You'll also need to create accounts for these services:
+If you haven't already, you'll also need to create accounts for these services:
 - [Mapbox](https://www.mapbox.com/signup/)
 - [GitHub](https://github.com)
 
