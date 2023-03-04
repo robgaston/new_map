@@ -47,3 +47,5 @@ npm run build
 
 ## Deployment
 To deploy your latest code to the web, simply build (as per above) then commit and push your local changes to the `main` branch in Github.
+
+You will need to [configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to use the `main` branch and the `/docs` folder.
