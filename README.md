@@ -8,15 +8,15 @@ You'll also need a Git client & text editor; if you don't have those, then you s
 - [Git](https://git-scm.com/downloads)
 - [VS Code](https://code.visualstudio.com/)
 
-If you haven't already, you'll also need to create accounts for these services:
-- [Mapbox](https://www.mapbox.com/signup/)
-- [GitHub](https://github.com)
-
-After installing git, configure it by running:
+After installing git for the first time, you'll need to configure it by running:
 ```sh
 git config --global user.name "<your name>"
 git config --global user.email "<your email>"
 ```
+
+If you haven't already, you'll also need to create accounts for these services:
+- [Mapbox](https://www.mapbox.com/signup/)
+- [GitHub](https://github.com)
 
 Now you can use this template repository to start building your own web map:
 - Use this template to create a new repository
