@@ -3,7 +3,7 @@
 ## Getting Started
 If you don't have them already, install the following dependencies:
 - [Node.js](https://nodejs.org/)
-- [Git](https://git-scm.com/downloads)
+- [Git](https://github.com/git-guides/install-git)
 - [VS Code](https://code.visualstudio.com/)
 
 After installing Git for the first time, you'll need to configure it by running the following from the [VS Code integrated terminal](https://code.visualstudio.com/docs/terminal/basics) (replace the quoted text with your name/email address):
