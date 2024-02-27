@@ -1,5 +1,5 @@
 {
     "container": "map",
     "accessToken": "",
-    "style": "mapbox://styles/mapbox/streets-v11"
+    "style": "mapbox://styles/mapbox/standard"
 }
