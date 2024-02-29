@@ -4,9 +4,11 @@ import * as mapboxgl from "mapbox-gl";
 import settings from "./settings.json";
 import custom from "./custom-style.json";
 
-let map;
+mapboxgl.accessToken = settings.accessToken;
 
-async function init() {
+const map = new mapboxgl.Map(settings);
+
+map.on("load", () => {
     const style = map.getStyle();
 
     style.sources = {
@@ -15,8 +17,4 @@ async function init() {
     };
     style.layers.push(...custom.layers);
     map.setStyle(style);
-}
-
-mapboxgl.accessToken = settings.accessToken;
-map = new mapboxgl.Map(settings);
-map.on("load", init);
+});
