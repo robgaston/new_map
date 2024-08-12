@@ -8,7 +8,7 @@ If you haven't already, you'll need to create accounts for these services:
 - [Mapbox](https://www.mapbox.com/signup/)
 - [GitHub](https://github.com)
 
-You will need to [configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to use 'GitHub Actions' as the source, and update the repository name in [`.github/workflows/deploy.yml`](https://github.com/robgaston/new_map/blob/main/.github/workflows/deploy.yml#L19) (change "new_map" on line 19 to match your repository name).
+You will need to [configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) to use 'GitHub Actions' as the source, and update the repository name in [`.github/workflows/deploy.yml`](https://github.com/robgaston/new_map/blob/main/.github/workflows/deploy.yml#L19) (change "new_map" on line 19 to match your repository name).
 
 **The easiest way to start development is to create a [GitHub Codespace](https://github.com/features/codespaces) using this repository.**
 
