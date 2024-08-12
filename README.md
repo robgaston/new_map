@@ -8,9 +8,9 @@ If you haven't already, you'll need to create accounts for these services:
 - [Mapbox](https://www.mapbox.com/signup/)
 - [GitHub](https://github.com)
 
-You will need to [configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to use the `main` branch and the `/docs` folder.
+You will need to [configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site) to use 'GitHub Actions' as the source, and update the repository name in [`.github/workflows/deploy.yml`](https://github.com/robgaston/new_map/blob/main/.github/workflows/deploy.yml#L19) (change "new_map" on line 19 to match your repository name).
 
-**The easiest way to start is by simply creating a [GitHub Codespace](https://github.com/features/codespaces) using this repository.**
+**The easiest way to start development is to create a [GitHub Codespace](https://github.com/features/codespaces) using this repository.**
 
 ### Running locally
 **If you are not using Codespaces**, to run locally you'll need to have the following dependencies installed:
@@ -34,23 +34,17 @@ npm install
 ```
 
 ### Mapbox API Key
-In order to use Mapbox services, you'll need to insert your Mapbox public access token ([which can be found here](https://www.mapbox.com/account/)) into [`src/settings.json`](https://github.com/robgaston/new_map/blob/main/src/settings.json#L3).
+In order to use Mapbox services, you'll need to insert your Mapbox public access token ([which can be found here](https://www.mapbox.com/account/)) into [`app.vue`](https://github.com/robgaston/new_map/blob/main/app.vue#L7).
 
 ## Development
 To start the app, run the following from the root directory of your cloned repository:
 ```
-npm start
+npm run dev
 ```
 
-The application should now be running at http://localhost:1234/ (see forwarded ports if using Codespaces).
+The application should now be running at http://localhost:3000/ (see forwarded ports if using Codespaces).
 
 Changes that you make to javascript and CSS files will be automatically refreshed.
 
-## Building
-Before deploying, you must first build the website by running the following command from the root directory: 
-```
-npm run build
-```
-
 ## Deployment
-To deploy your latest code to the web, simply build (as per above) then commit and push your changes to the `main` branch in Github.
+To deploy your latest code to the web, simply commit and push your changes to the `main` branch in Github.
