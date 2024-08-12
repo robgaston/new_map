@@ -1,4 +1,4 @@
-# Nuxt Map Template
+# New Map Template
 
 ## Getting Started
 
