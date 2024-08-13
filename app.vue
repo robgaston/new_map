@@ -17,25 +17,10 @@ onMounted(() => {
 </script>
 
 <template>
-  <div class="container">
-    <div class="content">
-      <div ref="mapContainer" class="map"></div>
-    </div>
-  </div>
+  <div ref="mapContainer" class="map"></div>
 </template>
 
 <style scoped>
-.container {
-  display: flex;
-  flex-flow: column;
-  height: 100%;
-}
-
-.content {
-  flex-grow: 1;
-  position: relative
-}
-
 .map {
   height: 100%;
 }
