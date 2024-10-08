@@ -12,8 +12,8 @@
   },
   "dependencies": {
     "@turf/turf": "^7.1.0",
-    "mapbox-gl": "^3.5.2",
-    "nuxt": "^3.12.4",
+    "mapbox-gl": "latest",
+    "nuxt": "^3.13.2",
     "vue": "latest"
   }
 }
