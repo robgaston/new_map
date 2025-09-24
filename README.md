@@ -4,9 +4,7 @@
 
 **[Use this template to create a your own repository.](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template#creating-a-repository-from-a-template)**
 
-If you haven't already, you'll need to create accounts for these services:
-- [Mapbox](https://www.mapbox.com/signup/)
-- [GitHub](https://github.com)
+If you haven't already, you'll need to create a [GitHub](https://github.com) account.
 
 You will need to [configure GitHub Pages](https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site#publishing-with-a-custom-github-actions-workflow) to use 'GitHub Actions' as the source.
 
@@ -32,9 +30,6 @@ Then setup VSCode to start working:
 ```
 npm install
 ```
-
-### Mapbox API Key
-In order to use Mapbox services, you'll need to insert your Mapbox public access token ([which can be found here](https://www.mapbox.com/account/)) into [`app.vue`](https://github.com/robgaston/new_map/blob/main/app.vue#L7).
 
 ## Development
 To start the app, run the following from the root directory of your cloned repository:
