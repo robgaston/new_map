@@ -2,7 +2,7 @@
 import { onMounted, ref } from "vue";
 import maplibregl from 'maplibre-gl';
 import 'maplibre-gl/dist/maplibre-gl.css';
-import style from "./mapbox/style.json";
+import style from "./map/style.json";
 
 const attribution = ref();
 const mapContainer = ref();
